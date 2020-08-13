@@ -1,0 +1,20 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="#ffffff" id="canvas_background" height="482" width="642" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000" id="svg_14" height="473" width="634" y="3.500018" x="3.500026" fill-opacity="0" stroke-opacity="null" stroke-width="7" fill="#0fffff"/>
+  <text stroke="#000" transform="matrix(13.504873647864226,0,0,12.719136255848477,-5661.85216869016,-3413.9533216657765) " xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="24" id="svg_3" y="280.453125" x="280" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">M</text>
+  <text stroke="#000" transform="matrix(1.662777185440063,0,0,1.6685013078659947,-102.56625872850412,-160.02320848406836) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="250" id="svg_9" y="325.90066" x="89.776141" fill-opacity="null" stroke-opacity="null" stroke-width="10" fill="#000000">M</text>
+  <text stroke="#000" transform="matrix(1.7538648273269644,0,0,1.6686460921564115,-373.94590636909504,-163.14689565079922) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="250" id="svg_10" y="328.447708" x="377.105427" fill-opacity="null" stroke-opacity="null" stroke-width="10" fill="#000000">H</text>
+  <rect id="svg_12" height="0" width="1" y="251.453125" x="416.5" fill-opacity="null" stroke-opacity="null" stroke-width="7" stroke="#000" fill="#fff"/>
+  <rect id="svg_15" height="16" width="13" y="336.453125" x="805.5" fill-opacity="0" stroke-opacity="null" stroke-width="7" stroke="#000" fill="#0fffff"/>
+ </g>
+</svg>

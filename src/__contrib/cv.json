@@ -1,0 +1,31 @@
+{
+  "education": [
+    {
+      "title": "Highschool",
+      "date": "09/2007 - 07/2015",
+      "content": "<div><h5>School: </h5>WWG Bayreuth</div><br/><div><h5>Grade: </h5>1.7</div>"
+    },
+    {
+      "title": "Bachelor",
+      "date": "10/2015 - 03/2019",
+      "content": "<div><h5>University: </h5>TU Munich</div><br/><div><h5>Course of Studies: </h5>Informatics: Games Engineering</div><br/><div><h5>Grade: </h5>2,338</div><br/><div><h5>Thesis Title: </h5>Augmented Reality Audio</div><br/><div><h5>Thesis Sub-Title: </h5>The social acceptance of large scale building projects in urban areas with a special focus on the spatial noise pollution</div><br/><div><h5>Grade: </h5>1.0</div>"
+    },
+    {
+      "title": "Master",
+      "date": "04/2019 - today",
+      "content": "<div><h5>University: </h5>TU Munich</div><br/><div><h5>Course of Studies: </h5>Informatics: Games Engineering</div><div>"
+    }
+  ],
+  "work": [
+    {
+      "title": "Tutor",
+      "date": "10/2015 - 05/2016",
+      "content": "<div>Subjects: Math, Physics, Chemistry</div>"
+    },
+    {
+      "title": "MobileX AG",
+      "date": "05/2016 - today",
+      "content": "<div><h5>Position: </h5>Workingstudent</div><br/><div><h5>Experience: </h5><ul><li>Java Fullstack Webdevelopment (Primefaces, Java-EE)</li><li>Website Test Automation (Selenium)</li><li>Database Administration (MySQL, MSSQL, Oracle)</li><li>Customer Interaction (Deployment, Technical Support)</li></ul></div>"
+    }
+  ]
+}

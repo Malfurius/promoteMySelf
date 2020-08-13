@@ -1,0 +1,21 @@
+.top{
+  display: inline-block;
+  width: 100%;
+}
+
+.title{
+  float: left;
+}
+
+.date{
+  float: right;
+}
+
+.container{
+  font-size: 1rem;
+  width: 80vw;
+}
+
+h5{
+  display: inline !important;
+}

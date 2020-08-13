@@ -1,0 +1,23 @@
+.cvList {
+  border-left: solid;
+  border-color: lightgrey;
+
+  list-style: outside;
+  padding: 1.29em;
+  width: fit-content;
+  margin-bottom: 3em;
+}
+
+.cvListItem {
+
+  max-width: 80vw;
+
+  margin-bottom: 2em;
+  font-size: 2em !important;
+}
+
+.container{
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+}

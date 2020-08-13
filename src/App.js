@@ -1,26 +1,47 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import HomeView from "./Views/HomeView";
+
+import "./App.css"
+import "./lux.css";
+import Header from "./Components/Header/Header";
+import CvView from "./Views/CvView";
+import Footer from "./Components/Footer/Footer";
+import DisclaimerView from "./Views/DisclaimerView";
+
+export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      title: 'TicketShare App',
+      routes: [
+        {component: HomeView, path: '/home', exact: true},
+        {component: CvView, path: '/CV', exact: true},
+        {component: DisclaimerView, path: '/Disclaimer', exact: true},
+
+      ],
+    };
+  }
+
+  render() {
+    return (
+
+        <div className="content">
+          <Router>
+            <Header/>
+              <Switch>
+                //...route == route.component = component,
+                route.path = path,
+                route.exact= exact
+                {this.state.routes.map(
+                    (route, i) => (
+                        <Route key={i} {...route}/>))}
+              </Switch>
+            <Footer/>
+          </Router>
+        </div>
+    );
+  }
 }
-
-export default App;
